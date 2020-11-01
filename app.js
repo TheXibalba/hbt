@@ -21,7 +21,7 @@ app.post("/booking",(req,res)=>{
     const body=req.body;
     console.log(body);
     res.render("successPage",{
-        message: "Your Reservation Has Been Made Successfully!",
+        message: "Your Reservation Was Made Successfully!",
         path: "/"
     });
 });
