@@ -39,13 +39,16 @@ p {
 .successPage{
   height:100vh;
   background-color: lightslategrey;
+  line-height: 2.5rem;
 }
 .success-message{ 
-  height: 45vh;
+  height: 41vh;
   text-align: center;
+  
 }
 .successText{
   margin: 15% 25%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .lead {
   font-size: 20px;
